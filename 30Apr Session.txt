@@ -34,6 +34,7 @@ cp | copy
 3) Git's basic commands
 http://swcarpentry.github.io/git-novice/
 status
+commit
 remote
 pull
 push
