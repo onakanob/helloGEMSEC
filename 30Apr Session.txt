@@ -1,0 +1,88 @@
+Let's backtrack a little bit:
+There are a few things in life that everyone needs.
+
+0) A good resource. I'm basing many of these lists off of software carpentry (thanks Swapil):
+https://software-carpentry.org/lessons/
+
+
+1) a text editor
+notepad++
+sublime
+atom
+eclipse
+emacs
+vim
+visual studio
+spyder
+pycharm
+
+
+2) bash and cmd commands
+ls | dir
+man
+cd
+pwd
+~
+mkdir
+rm | del
+mv | move
+cp | copy
+>, <, and |
+
+
+3) Git's basic commands
+status
+remote
+pull
+push
+
+
+4) Python - the Very Basics
+   A. Start a jupyter notebook:
+      in bash or cmd:
+      > jupyter notebook
+
+      if that doesn't work:
+      pip install --upgrade jupyter
+
+      Open the notebook 'VeryBasics.ipynb'
+      
+   B. Say hello
+      print('Hello')
+      
+   C. Save a variable
+      x = 5
+
+   D. Variables can be strings
+      name = 'Excalibur'
+
+   E. Variables can be indexed
+      subname = name[1]
+      print(subname)
+
+   F. Indexing can access multiple elements
+      print(name[0:5])
+
+   G. Everything works with Numpy
+      import numpy
+      x = numpy.array([1, 2, 3])
+      y = x[1]
+      print(x[2])
+      print(y*x[1:3])
+
+
+5) The built-in python functions
+https://docs.python.org/3/library/functions.html
+
+open()
+
+6) Python packages and member functions
+
+f = open(<file>)
+f.read()
+
+import sys
+sys.argv[1]
+
+7) Let's talk about say.py
+This function takes a file name from the command line, reads its contents, and prints them back to the command line.
