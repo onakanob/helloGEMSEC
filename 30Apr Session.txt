@@ -18,6 +18,7 @@ pycharm
 
 
 2) bash and cmd commands
+http://swcarpentry.github.io/shell-novice/
 ls | dir
 man
 cd
@@ -31,6 +32,7 @@ cp | copy
 
 
 3) Git's basic commands
+http://swcarpentry.github.io/git-novice/
 status
 remote
 pull
@@ -38,6 +40,7 @@ push
 
 
 4) Python - the Very Basics
+http://swcarpentry.github.io/python-novice-gapminder/
    A. Start a jupyter notebook:
       in bash or cmd:
       > jupyter notebook
