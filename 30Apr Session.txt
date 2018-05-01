@@ -9,6 +9,7 @@ https://software-carpentry.org/lessons/
 notepad++
 sublime
 atom
+nano
 eclipse
 emacs
 vim
@@ -88,5 +89,5 @@ f.read()
 import sys
 sys.argv[1]
 
-7) Let's talk about say.py
+7) Let's talk about say.py, scripts.py, and readFile.py
 This function takes a file name from the command line, reads its contents, and prints them back to the command line.

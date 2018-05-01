@@ -1,3 +1,5 @@
+# Two ways to call a custom function from an external python package. say() takes a file name as an argument and prints its contents to the terminal window
+
 from batchExample.scripts import say #import just one function
 import batchExample.scripts as myScripts #import a whole package and give it a local name
 
